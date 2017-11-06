@@ -21,3 +21,16 @@
   height: 135px;
   background-color: #0bf046;
 }
+
+.bottomright {
+  height: 135px;
+  background-color: green;
+  border-left: 2px gray solid;
+}
+
+.box {
+  padding: 20px;
+  background-color: #c5df2ff5;
+  margin-top:15px;
+  border:2px black inset;
+}
