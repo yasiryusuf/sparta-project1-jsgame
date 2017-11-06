@@ -1,7 +1,7 @@
 .top {
   height:450px;
   background-image: url(./top-background.jpg);
-  background-size: cover;
+
 
 }
 .top h1 {
@@ -9,6 +9,7 @@
   font-size: 70px;
   margin-top: 154px;
   color:purple;
+
 }
 .middle {
   height: 141px;
@@ -33,4 +34,17 @@
   background-color: #c5df2ff5;
   margin-top:15px;
   border:2px black inset;
+}
+
+button {
+  width: 194px;
+  height: 48px;
+  margin-top: 65px;
+  border-radius: 20px;
+  background-color: #32b5bb;
+  margin-left: 343px;
+  border:2px solid outset;
+  font-size:20px;
+  color:purple;
+  font-weight: bolder;
 }
