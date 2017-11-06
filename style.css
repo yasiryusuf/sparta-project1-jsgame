@@ -1,0 +1,12 @@
+.top {
+  height:450px;
+  background-image: url(./top-background.jpg);
+  background-size: cover;
+
+}
+.top h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 154px;
+  color:purple;
+}
