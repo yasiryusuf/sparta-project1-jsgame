@@ -10,3 +10,14 @@
   margin-top: 154px;
   color:purple;
 }
+.middle {
+  height: 141px;
+  background-color: #29cde6b8;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+
+.bottomleft {
+  height: 135px;
+  background-color: #0bf046;
+}
