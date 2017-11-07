@@ -16,6 +16,7 @@
   background-color: #29cde6b8;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
+  padding: 10px;
 }
 
 .bottomleft {
@@ -47,4 +48,9 @@
   font-size:20px;
   color:purple;
   font-weight: bolder;
+}
+
+.duckss {
+  background-color: gray;
+  float: right;
 }

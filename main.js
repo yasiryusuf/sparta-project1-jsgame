@@ -8,6 +8,7 @@ $("#start").click( function(){
   var startTime = 30;
   var timerrunning = setInterval( function(){ timer() } , 1000);
   var makingDucks = setInterval( function(){ createDuck() } , 1000);
+  
 
   // Timer Countdown
   function timer() {
@@ -23,7 +24,7 @@ $("#start").click( function(){
   }
   //appends new duck
   function createDuck() {
-    var $newduck = $('<div class="ducks"><img id="duck" src="duck.png" height="60px" width="60px" style="position:absolute"></div>');
+    var $newduck = $('<div class="ducks"><img id="duck" src="duck.png" height="80px" width="80px" style="position:absolute"></div>');
     $('.middle').append($newduck);
     //create duck off screen with negative margin
 
@@ -33,11 +34,20 @@ $("#start").click( function(){
       $("#points").html(score);
     });
 
+    // Math.random
+
 
     $newduck.animate({
        marginLeft: '100%',
-    }, 5000);
+    }, 8000);
   }
+
+
+
+
+
+
+
 
 
 })
