@@ -25,6 +25,9 @@ $("#start").click( function(){
   })
 
 
+  $("#duck").animate({
+   marginLeft: '250px',
+  });
 
 
   //
