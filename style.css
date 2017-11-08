@@ -65,7 +65,12 @@
   color:black;
 }
 /*the duck image*/
-.duckss {
-  background-color: gray;
+.ducks {
   float: right;
+}
+
+li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 18px;
 }
