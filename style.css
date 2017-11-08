@@ -1,42 +1,43 @@
+/*top column*/
 .top {
   height:450px;
   background-image: url(./top-background.jpg);
-
-
 }
+/*top column header*/
 .top h1 {
   text-align: center;
   font-size: 70px;
   margin-top: 154px;
   color:purple;
-
 }
+/*middle column*/
 .middle {
   height: 141px;
-  background-color: #29cde6b8;
-  border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
+  background-color: #21c1da;
+  border-top: 6px solid #8b6617;
+  border-bottom: 3px solid #8b6617;
   padding: 10px;
 }
-
+/*bottom left column*/
 .bottomleft {
   height: 135px;
   background-color: #0bf046;
 }
-
+/*bottom right column*/
 .bottomright {
   height: 135px;
   background-color: green;
   border-left: 2px gray solid;
 }
-
+/*the box in the right bottom column*/
 .box {
   padding: 20px;
   background-color: #c5df2ff5;
   margin-top:15px;
-  border:2px black inset;
+  border: 2px inset;
+  border-radius: 25px;
 }
-
+/*start button*/
 #start {
   width: 194px;
   height: 48px;
@@ -44,12 +45,26 @@
   border-radius: 20px;
   background-color: #32b5bb;
   margin-left: 343px;
-  border:2px solid outset;
+  border:2px solid gray;
   font-size:20px;
   color:purple;
   font-weight: bolder;
 }
-
+/*start button hover*/
+#start:hover {
+  width: 194px;
+  height: 48px;
+  margin-top: 65px;
+  border-radius: 20px;
+  background-color: #32b5bb;
+  margin-left: 343px;
+  border:2px solid gray;
+  font-size:20px;
+  border: 2px solid white;
+  font-weight: bolder;
+  color:black;
+}
+/*the duck image*/
 .duckss {
   background-color: gray;
   float: right;
