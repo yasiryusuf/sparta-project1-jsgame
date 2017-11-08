@@ -6,10 +6,12 @@ $(function() {
   // setInterval
   $("#start").click( function(){
     var score = 0;
-    var startTime = 30;
+    var startTime = 3;
     var timerrunning = setInterval( function(){ timer() } , 1000);
     var makingDucks = setInterval( function(){ createDuck() } , 1000);
     var makingUglyDucks = setInterval( function(){ createUglyDuck() } , 1000);
+    //start button fading out
+    $(this).fadeOut(2000);
   // Timer Countdown
   function timer() {
     startTime = startTime - 1;
@@ -18,7 +20,11 @@ $(function() {
       clearInterval(timerrunning);
     }
     if (startTime === 0) {
-      alert('Your Score is ' + score)
+      $('#gameover').css("display", "block");
+      $('#scores').html(score);
+      $("#reload").click( function(){
+        location.reload();
+      })
     }
   }
   //appends new duck
