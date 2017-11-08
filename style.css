@@ -36,33 +36,43 @@
   margin-top:15px;
   border: 2px inset;
   border-radius: 25px;
+
+}
+/*the box in the right bottom column*/
+.box:hover {
+  padding: 20px;
+  background-color: #2fdfa54f;
+  margin-top:15px;
+  border: 2px inset;
+  border-radius: 25px;
+
 }
 /*start button*/
 #start {
   width: 194px;
   height: 48px;
-  margin-top: 65px;
+  margin-top: 56px;
   border-radius: 20px;
   background-color: #32b5bb;
-  margin-left: 343px;
-  border:2px solid gray;
-  font-size:20px;
-  color:purple;
+  margin-left: 359px;
+  border: 2px solid gray;
+  font-size: 20px;
+  color: purple;
   font-weight: bolder;
+  display: inline-block;
 }
 /*start button hover*/
 #start:hover {
   width: 194px;
   height: 48px;
-  margin-top: 65px;
+  margin-top: 56px;
   border-radius: 20px;
-  background-color: #32b5bb;
-  margin-left: 343px;
-  border:2px solid gray;
-  font-size:20px;
   border: 2px solid white;
+  margin-left: 359px;
+  font-size: 20px;
+  color: black;
   font-weight: bolder;
-  color:black;
+  display: inline-block;
 }
 /*the duck image*/
 .ducks {
@@ -91,4 +101,53 @@ padding: 1px;
 }
 #gameover p {
 font-size: 24px;
+}
+
+#rules {
+  margin-top: -227px;
+  background-color: #59d84b;
+  font-size: 16px;
+  padding: 3px;
+  border-radius: 13px;
+  border: 2px dotted #683b8596;
+  width: 280px;
+  float: right;
+  height: 178px;
+}
+
+#rules:hover {
+  margin-top: -227px;
+  margin-left: 20px;
+  background-color: #4e9abdb0;
+  font-size: 16px;
+  padding: 3px;
+  border-radius: 13px;
+  border: 2px dotted white;
+  width: 350px;
+  float: right;
+  height: 228px;
+
+}
+
+#rules:hover p {
+  font-size: 20px;
+  color: white;
+
+}
+#rules h5 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  color: #bd2a2afa;
+}
+#rules:hover h5 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  color: yellow;
+}
+#rules p {
+  text-align: center;
+  color: #49338b;
+  font-size: 20px;
 }

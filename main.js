@@ -1,12 +1,9 @@
 $(function() {
     console.log( "ready!" );
-
-
-
   // setInterval
   $("#start").click( function(){
     var score = 0;
-    var startTime = 3;
+    var startTime = 30;
     var timerrunning = setInterval( function(){ timer() } , 1000);
     var makingDucks = setInterval( function(){ createDuck() } , 1000);
     var makingUglyDucks = setInterval( function(){ createUglyDuck() } , 1000);
