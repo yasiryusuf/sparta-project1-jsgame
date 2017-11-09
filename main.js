@@ -1,4 +1,8 @@
 $(function() {
+
+  //Create function to set the start click
+  //Put your callback code line 9 - 15
+
     console.log( "ready!" );
   // setInterval
   $("#start").click( function(){
@@ -19,6 +23,8 @@ $(function() {
     if (startTime === 0) {
       $('#gameover').css("display", "block");
       $('#scores').html(score);
+      $('.box').hide();
+      $('.ducks').css()
       $("#reload").click( function(){
         location.reload();
       })
@@ -40,22 +46,17 @@ $(function() {
     }, 8000);
   }
   function createUglyDuck() {
-  var $newduck = $('<div class="duckss"><img id="duck" src="uglyduck.png" height="80px" width="80px" style="position:absolute" style ="marginLeft:180%"> </div>');
-  $('.middle').append($newduck);
+    var $newduck = $('<div class="duckss"><img id="duck" src="uglyduck.png" height="80px" width="80px" style="position:absolute"</div>');
+    $('.middle').append($newduck);
   //create duck off screen with negative margin
-  $newduck.on('click', function(){
+    $newduck.on('click', function(){
     console.log("clicked");
     score = score - 2;
     $("#points").html(score);
   });
-
-
-  $newduck.animate({
+    $newduck.animate({
      marginLeft: '120%',
   }, 6000);
-}
-
-
+  }
   })
-
 });

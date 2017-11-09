@@ -1,3 +1,7 @@
+.crosshair {
+  cursor:crosshair;
+  height: 300px;
+}
 /*top column*/
 .top {
   height:450px;
