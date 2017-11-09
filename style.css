@@ -1,6 +1,12 @@
+/*The li*/
+li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 18px;
+}
 .crosshair {
   cursor:crosshair;
-  height: 300px;
+  height: 400px;
 }
 /*top column*/
 .top {
@@ -40,7 +46,6 @@
   margin-top:15px;
   border: 2px inset;
   border-radius: 25px;
-
 }
 /*the box in the right bottom column*/
 .box:hover {
@@ -49,7 +54,6 @@
   margin-top:15px;
   border: 2px inset;
   border-radius: 25px;
-
 }
 /*start button*/
 #start {
@@ -83,13 +87,7 @@
   float: right;
   z-index:999;
 }
-
-li {
-  display: inline-block;
-  margin-right: 30px;
-  font-size: 18px;
-}
-
+/*The gameover div*/
 #gameover {
 display: none;
 background-color: #00000047;
@@ -101,12 +99,12 @@ height: 319px;
 border-radius: 25px;
 margin-top: -114px;
 padding: 1px;
-
 }
+/*the gameover paragraph*/
 #gameover p {
-font-size: 24px;
+  font-size: 24px;
 }
-
+/*the rules*/
 #rules {
   margin-top: -227px;
   background-color: #59d84b;
@@ -118,7 +116,7 @@ font-size: 24px;
   float: right;
   height: 178px;
 }
-
+/*the rules hover*/
 #rules:hover {
   margin-top: -227px;
   margin-left: 20px;
@@ -130,26 +128,27 @@ font-size: 24px;
   width: 350px;
   float: right;
   height: 228px;
-
 }
-
+/*the rules hover paragraph*/
 #rules:hover p {
   font-size: 20px;
   color: white;
-
 }
+/*the rules h5*/
 #rules h5 {
   font-size: 20px;
   text-align: center;
   font-weight: bolder;
   color: #bd2a2afa;
 }
+/*rules hover header*/
 #rules:hover h5 {
   font-size: 40px;
   text-align: center;
   font-weight: bolder;
   color: yellow;
 }
+/*rules paragraph*/
 #rules p {
   text-align: center;
   color: #49338b;
