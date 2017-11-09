@@ -27,7 +27,6 @@ $(function() {
     $('.middle').append($newduck);
     //Score for shooting the ducks
     $newduck.on('click', function(){
-      console.log("clicked");
       score = score + 1;
       $("#points").html(score);
     });
@@ -43,7 +42,6 @@ $(function() {
     $('.middle').append($newduck);
     //Score for Shooting the Ugly Ducks
     $newduck.on('click', function(){
-      console.log("clicked");
       score = score - 2;
       $("#points").html(score);
     });
@@ -54,7 +52,6 @@ $(function() {
 
   //The function SetStartListeners to set the start click button
   function setStartListeners() {
-    console.log( "ready!" );
     // setIntervals
     $("#start").click( function(){
       timerrunning = setInterval(timer, 1000);

@@ -96,16 +96,16 @@ li {
 }
 /*The gameover div*/
 #gameover {
-display: none;
-background-color: #00000047;
-text-align: center;
-z-index: 1791;
-margin-right: 137px;
-margin-left: 80px;
-height: 319px;
-border-radius: 25px;
-margin-top: -114px;
-padding: 1px;
+  display: none;
+  background-color: #00000047;
+  text-align: center;
+  z-index: 1791;
+  margin-right: 137px;
+  margin-left: 80px;
+  height: 319px;
+  border-radius: 25px;
+  margin-top: -114px;
+  padding: 1px;
 }
 /*the gameover paragraph*/
 #gameover p {
