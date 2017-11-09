@@ -23,8 +23,7 @@ $(function() {
 
   //The Function for creating the Ducks
   function createDuck() {
-    debugger;
-    var $newduck = $('<div class="ducks"><img id="duck" src="duck.png" height="80px" width="80px" style="position:absolute"></div>');
+    var $newduck = $('<div class="ducks"><img id="duck" src="./images/duck.png" height="80px" width="80px" style="position:absolute"></div>');
     $('.middle').append($newduck);
     //Score for shooting the ducks
     $newduck.on('click', function(){
@@ -34,13 +33,13 @@ $(function() {
     });
     //duck animating right
     $newduck.animate({
-       marginRight: '120%',
+       marginRight: '120%'
     }, 8000);
   }
 
   // The Function for Creating the Ugly Ducks
   function createUglyDuck() {
-    var $newduck = $('<div class="duckss"><img id="duck" src="uglyduck.png" height="80px" width="80px" style="position:absolute"</div>');
+    var $newduck = $('<div class="duckss"><img id="duck" src="./images/uglyduck.png" height="80px" width="80px" style="position:absolute"</div>');
     $('.middle').append($newduck);
     //Score for Shooting the Ugly Ducks
     $newduck.on('click', function(){
@@ -49,7 +48,7 @@ $(function() {
       $("#points").html(score);
     });
     $newduck.animate({
-      marginLeft: '120%',
+      marginLeft: '120%'
     }, 6000);
   }
 

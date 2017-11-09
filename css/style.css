@@ -11,7 +11,7 @@ li {
 /*top column*/
 .top {
   height:450px;
-  background-image: url(./top-background.jpg);
+  background-image: url(../images/top-background.jpg);
 }
 /*top column header*/
 .top h1 {
@@ -19,6 +19,13 @@ li {
   font-size: 70px;
   margin-top: 154px;
   color:purple;
+}
+/*top column header*/
+.top h1:hover {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 154px;
+  color:#2d4a82;
 }
 /*middle column*/
 .middle {
