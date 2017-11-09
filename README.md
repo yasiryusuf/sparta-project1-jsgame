@@ -18,10 +18,11 @@ The game is called 'The Ugly Duckling'.
 #Introduction/Instructions
 The game itself is very simple, The point is to try and score as many points as possible in 30 seconds by clicking the mouse, The yellow ducks are worth 1 point while the Ugly Ducks decrease your score by 2 points.
 
-
+#wireframe
 ![](./images/wireframe.png)
 
-![](./images/wireframe.png)
+#Trello
+![](./images/trello.png)
 
 
 ## What Went Well
