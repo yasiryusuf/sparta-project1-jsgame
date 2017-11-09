@@ -1,6 +1,6 @@
 $(function() {
   var score = 0;
-  var startTime = 3;
+  var startTime = 30;
   var timerrunning;
   var makingDucks;
   var makingUglyDucks;
