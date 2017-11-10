@@ -7,8 +7,9 @@
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
     crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="main.js">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/main.js">
     </script>
     <title>The Ugly Duckling</title>
   </head>
@@ -17,21 +18,31 @@
       <div class="row">
         <div class="col-xs-12 top">
           <h1> The Ugly Duckling </h1>
+          <div id="rules">
+            <h5>Rules</h5>
+            <p>Shoot the Ducks ( +1 Point) </p>
+            <p>Shoot the Ugly Ducks ( -2 Points) </p>
+          </div>
+          <div id="gameover">
+            <h1> Game Over! </h1>
+            <p> You Scored <span id="scores"> </p>
+            <button type="button" button id="reload" name="button">Restart Game</button>
+          </div>
         </div>
       </div>
       <div class="row">
-        <div class="middle">
+        <div class="middle crosshair">
         </div>
       </div>
       <div class="row">
-        <div class ="col-xs-8 bottomleft">
-          <button type="button" name="button" id="start">Start Game</button>
+        <div class="col-xs-8 bottomleft">
+            <button type="button" name="button" id="start">Start Game</button>
         </div>
-        <div class ="col-xs-4 bottomright">
-          <div class ="box">
+        <div class="col-xs-4 bottomright">
+          <div class="box">
             <p>
               <ul>
-                <li>Points: <span id="points"> </span></li>
+                <li>Points: <span id="points"> 0</span></li>
                 <li>Time Left: <span id="timer"> 30 </span></li>
               </ul>
             </p>
