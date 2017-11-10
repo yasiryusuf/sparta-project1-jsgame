@@ -12,6 +12,12 @@ Your game should be built using html, css and JavaScript!
 * Be styled to perfection!
 * Be hosted online!
 
+## Task
+
+Your mission, should you choose to accept it! Is to build a **browser based game!** Your game should be built using html, css and JavaScript!
+
+**The choice of game is totally up to you however before you get to work, you must ensure you have had your project idea approved by one of your trainers.**
+
 # The Game
 The game is called 'The Ugly Duckling'.
 
